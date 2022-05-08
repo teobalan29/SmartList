@@ -5,7 +5,3 @@ export const colors = {
 };
 
 const green = "green";
-
-const f = () => {
-  return 22;
-};

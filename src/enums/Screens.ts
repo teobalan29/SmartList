@@ -2,5 +2,6 @@
 export const Screens = {
     LOGIN: "Login",
     REGISTER: "Register",
-    WELCOME: "Welcome"
+    WELCOME: "Welcome",
+    HOME: "Home",
 }

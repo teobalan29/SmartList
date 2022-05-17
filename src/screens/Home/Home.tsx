@@ -6,10 +6,10 @@ import {data} from "./const"
 import {Screens} from "../../enums/Screens"
 import {Layout} from "../../components"
 
-const Login : React.FC = () =>{
+const Home : React.FC = () =>{
     return (
         <Layout>
-            <Text>login</Text>
+            <Text>Home</Text>
             {data.map((el,key) => (
                 <Text style={{backgroundColor: el.color}} key={key}>{el.name}</Text>
             ))}
@@ -18,4 +18,4 @@ const Login : React.FC = () =>{
     )
 }
 
-export default Login;
+export default Home;

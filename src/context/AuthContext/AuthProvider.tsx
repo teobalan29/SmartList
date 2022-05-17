@@ -6,7 +6,7 @@ const AuthProvider : React.FC = ({children}) =>{
     const [isSignedIn, setIsSignedIn] = useState(false);
 
     useEffect(()=>{
-        setIsSignedIn(false);
+        setIsSignedIn(true);
     }, [])
 
     return(
